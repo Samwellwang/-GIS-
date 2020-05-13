@@ -1,0 +1,12 @@
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\bin\Debug\中华美食查询系统.exe
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\bin\Debug\中华美食查询系统.pdb
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\obj\Debug\中华美食查询系统.Form1.resources
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\obj\Debug\中华美食查询系统.Properties.Resources.resources
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\obj\Debug\中华美食查询系统.csproj.GenerateResource.Cache
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\obj\Debug\中华美食查询系统.exe
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\obj\Debug\中华美食查询系统.pdb
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\bin\Debug\中华美食查询系统.exe.config
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\bin\Debug\BaiduAPI.html
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\bin\Debug\BaiduAPI3.html
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\bin\Debug\foodlogo.ico
+C:\Users\96498\documents\visual studio 2015\Projects\中华美食查询系统\中华美食查询系统\obj\Debug\中华美食查询系统.csprojResolveAssemblyReference.cache
