@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<style type="text/css">
-	body, html{width: 100%;height: 100%;margin:0;font-family:"Î¢ÈíÑÅºÚ";}
+	body, html{width: 100%;height: 100%;margin:0;font-family:"å¾®è½¯é›…é»‘";}
 	#allmap {height: 500px;width:100%;overflow: hidden;}
 	#result {width:100%;font-size:12px;}
 	dl,dt,dd,ul,li{
@@ -14,7 +14,7 @@
 	}
 	dt{
 		font-size:14px;
-		font-family:"Î¢ÈíÑÅºÚ";
+		font-family:"å¾®è½¯é›…é»‘";
 		font-weight:bold;
 		border-bottom:1px dotted #000;
 		padding:5px 0 5px 5px;
@@ -27,22 +27,22 @@
 		line-height:28px;
 	}
 	</style>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=w3pTeUZGra93aHGVtSspDyp94WvQQwsW"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ä½ è‡ªå·±ç”³è¯·çš„ç™¾åº¦åœ°å›¾APIçš„ak(å¯†é’¥)"></script>
 	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
 	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
-	<title>´ø¼ìË÷¹¦ÄÜµÄĞÅÏ¢´°¿Ú</title>
+	<title>å¸¦æ£€ç´¢åŠŸèƒ½çš„ä¿¡æ¯çª—å£</title>
 </head>
 <body>
 	<div id="allmap">	
 	</div>
 	<div id="result">
-		<input type="button" value="Ä¬ÈÏÑùÊ½" onclick="searchInfoWindow.open(marker);"/>
-		<input type="button" value="ÑùÊ½1" onclick="openInfoWindow1()"/>
-		<input type="button" value="ÑùÊ½2" onclick="openInfoWindow2()"/>
-		<input type="button" value="ÑùÊ½3" onclick="openInfoWindow3()"/>
+		<input type="button" value="é»˜è®¤æ ·å¼" onclick="searchInfoWindow.open(marker);"/>
+		<input type="button" value="æ ·å¼1" onclick="openInfoWindow1()"/>
+		<input type="button" value="æ ·å¼2" onclick="openInfoWindow2()"/>
+		<input type="button" value="æ ·å¼3" onclick="openInfoWindow3()"/>
 	</div>
 <script type="text/javascript">
-	// °Ù¶ÈµØÍ¼API¹¦ÄÜ
+	// ç™¾åº¦åœ°å›¾APIåŠŸèƒ½
     var map = new BMap.Map('allmap');
     var poi = new BMap.Point(116.307852,40.057031);
     map.centerAndZoom(poi, 16);
@@ -50,61 +50,61 @@
 
     var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
                     '<img src="../img/baidu.jpg" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
-                    'µØÖ·£º±±¾©ÊĞº£µíÇøÉÏµØÊ®½Ö10ºÅ<br/>µç»°£º(010)59928888<br/>¼ò½é£º°Ù¶È´óÏÃÎ»ÓÚ±±¾©ÊĞº£µíÇøÎ÷¶şÆìµØÌúÕ¾¸½½ü£¬Îª°Ù¶È¹«Ë¾×ÛºÏÑĞ·¢¼°°ì¹«×Ü²¿¡£' +
+                    'åœ°å€ï¼šåŒ—äº¬å¸‚æµ·æ·€åŒºä¸Šåœ°åè¡—10å·<br/>ç”µè¯ï¼š(010)59928888<br/>ç®€ä»‹ï¼šç™¾åº¦å¤§å¦ä½äºåŒ—äº¬å¸‚æµ·æ·€åŒºè¥¿äºŒæ——åœ°é“ç«™é™„è¿‘ï¼Œä¸ºç™¾åº¦å…¬å¸ç»¼åˆç ”å‘åŠåŠå…¬æ€»éƒ¨ã€‚' +
                   '</div>';
 
-    //´´½¨¼ìË÷ĞÅÏ¢´°¿Ú¶ÔÏó
+    //åˆ›å»ºæ£€ç´¢ä¿¡æ¯çª—å£å¯¹è±¡
     var searchInfoWindow = null;
 	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
-			title  : "°Ù¶È´óÏÃ",      //±êÌâ
-			width  : 290,             //¿í¶È
-			height : 105,              //¸ß¶È
-			panel  : "panel",         //¼ìË÷½á¹ûÃæ°å
-			enableAutoPan : true,     //×Ô¶¯Æ½ÒÆ
+			title  : "ç™¾åº¦å¤§å¦",      //æ ‡é¢˜
+			width  : 290,             //å®½åº¦
+			height : 105,              //é«˜åº¦
+			panel  : "panel",         //æ£€ç´¢ç»“æœé¢æ¿
+			enableAutoPan : true,     //è‡ªåŠ¨å¹³ç§»
 			searchTypes   :[
-				BMAPLIB_TAB_SEARCH,   //ÖÜ±ß¼ìË÷
-				BMAPLIB_TAB_TO_HERE,  //µ½ÕâÀïÈ¥
-				BMAPLIB_TAB_FROM_HERE //´ÓÕâÀï³ö·¢
+				BMAPLIB_TAB_SEARCH,   //å‘¨è¾¹æ£€ç´¢
+				BMAPLIB_TAB_TO_HERE,  //åˆ°è¿™é‡Œå»
+				BMAPLIB_TAB_FROM_HERE //ä»è¿™é‡Œå‡ºå‘
 			]
 		});
-    var marker = new BMap.Marker(poi); //´´½¨marker¶ÔÏó
-    marker.enableDragging(); //marker¿ÉÍÏ×§
+    var marker = new BMap.Marker(poi); //åˆ›å»ºmarkerå¯¹è±¡
+    marker.enableDragging(); //markerå¯æ‹–æ‹½
     marker.addEventListener("click", function(e){
 	    searchInfoWindow.open(marker);
     })
-    map.addOverlay(marker); //ÔÚµØÍ¼ÖĞÌí¼Ómarker
-	//ÑùÊ½1
-	var searchInfoWindow1 = new BMapLib.SearchInfoWindow(map, "ĞÅÏ¢¿ò1ÄÚÈİ", {
-		title: "ĞÅÏ¢¿ò1", //±êÌâ
-		panel : "panel", //¼ìË÷½á¹ûÃæ°å
-		enableAutoPan : true, //×Ô¶¯Æ½ÒÆ
+    map.addOverlay(marker); //åœ¨åœ°å›¾ä¸­æ·»åŠ marker
+	//æ ·å¼1
+	var searchInfoWindow1 = new BMapLib.SearchInfoWindow(map, "ä¿¡æ¯æ¡†1å†…å®¹", {
+		title: "ä¿¡æ¯æ¡†1", //æ ‡é¢˜
+		panel : "panel", //æ£€ç´¢ç»“æœé¢æ¿
+		enableAutoPan : true, //è‡ªåŠ¨å¹³ç§»
 		searchTypes :[
-			BMAPLIB_TAB_FROM_HERE, //´ÓÕâÀï³ö·¢
-			BMAPLIB_TAB_SEARCH   //ÖÜ±ß¼ìË÷
+			BMAPLIB_TAB_FROM_HERE, //ä»è¿™é‡Œå‡ºå‘
+			BMAPLIB_TAB_SEARCH   //å‘¨è¾¹æ£€ç´¢
 		]
 	});
 	function openInfoWindow1() {
 		searchInfoWindow1.open(new BMap.Point(116.319852,40.057031));
 	}
-	//ÑùÊ½2
-	var searchInfoWindow2 = new BMapLib.SearchInfoWindow(map, "ĞÅÏ¢¿ò2ÄÚÈİ", {
-		title: "ĞÅÏ¢¿ò2", //±êÌâ
-		panel : "panel", //¼ìË÷½á¹ûÃæ°å
-		enableAutoPan : true, //×Ô¶¯Æ½ÒÆ
+	//æ ·å¼2
+	var searchInfoWindow2 = new BMapLib.SearchInfoWindow(map, "ä¿¡æ¯æ¡†2å†…å®¹", {
+		title: "ä¿¡æ¯æ¡†2", //æ ‡é¢˜
+		panel : "panel", //æ£€ç´¢ç»“æœé¢æ¿
+		enableAutoPan : true, //è‡ªåŠ¨å¹³ç§»
 		searchTypes :[
-			BMAPLIB_TAB_SEARCH   //ÖÜ±ß¼ìË÷
+			BMAPLIB_TAB_SEARCH   //å‘¨è¾¹æ£€ç´¢
 		]
 	});
 	function openInfoWindow2() {
 		searchInfoWindow2.open(new BMap.Point(116.324852,40.057031));
 	}
-	//ÑùÊ½3
-	var searchInfoWindow3 = new BMapLib.SearchInfoWindow(map, "ĞÅÏ¢¿ò3ÄÚÈİ", {
-		title: "ĞÅÏ¢¿ò3", //±êÌâ
-		width: 290, //¿í¶È
-		height: 40, //¸ß¶È
-		panel : "panel", //¼ìË÷½á¹ûÃæ°å
-		enableAutoPan : true, //×Ô¶¯Æ½ÒÆ
+	//æ ·å¼3
+	var searchInfoWindow3 = new BMapLib.SearchInfoWindow(map, "ä¿¡æ¯æ¡†3å†…å®¹", {
+		title: "ä¿¡æ¯æ¡†3", //æ ‡é¢˜
+		width: 290, //å®½åº¦
+		height: 40, //é«˜åº¦
+		panel : "panel", //æ£€ç´¢ç»“æœé¢æ¿
+		enableAutoPan : true, //è‡ªåŠ¨å¹³ç§»
 		searchTypes :[
 		]
 	});
